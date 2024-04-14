@@ -1,0 +1,11 @@
+# After installing prometheus and grafana
+# run the python scripts that reads the raw data and the second that exposes 
+
+prometheus --config.file=./localdb.yml
+
+prometheus by defaul shows up in localhost:9090
+
+------grafana----------
+For grafana, you new to start the service, in mac is
+brew services stopt grafana
+localhost:3000 by default

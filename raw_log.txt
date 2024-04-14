@@ -1,0 +1,26 @@
+Time of log: Sat Apr 13 15:28:19 2024
+
+Now printing all available values available. All values read after this tool will be from the last read cycle!
+System timestamp 1713040099469 ms since epoch
+LAPPD ID is 0
+Timestamp ms since epoch = 1713040099469
+humidity = 2.92394
+temperature = 50.7994
+thermistor = 9360.41
+HV state should be true and is 1 and is set to 2325 V
+Returned HV is 2341.36V
+LV state should be true and is 1
+LV voltages are V(3.3)= 3.32038V, V(3.1)= 3.108V, V(1.8)= 1.77674V
+Temperature warning flag is 1
+Humidity warning flag is 0
+Temperature 2 warning flag is 0
+Saltbridge warning flag is 0
+Relay 1 is true
+Relay 2 is true
+Relay 3 is true
+Threshold for DAC 0 is 1.23171 V
+Threshold for DAC 1 is 1.23025 V
+Photodiode return is 0.56462
+Saltbridge return is 545878
+No errorcodes found all good 0x00000000
+-------------
