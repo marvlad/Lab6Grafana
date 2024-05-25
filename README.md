@@ -28,4 +28,4 @@ Start the Grafana service. Example:
 Grafana will show up in `localhost:3000` by default.
 
 
-The Lab6-1713058778362.json is a template dashboard generated with Grafana for lab6 use.
+The `Lab6-1713058778362.json` is a template dashboard generated with Grafana for lab6 use.
