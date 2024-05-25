@@ -1,6 +1,9 @@
 After installing Prometheus and Grafana run the Python scripts. In three terminals run the following 
 
-# In Terminal 1)
+In Terminal 1)
+```javascript
+`${copyCodeBlock('<div>Thundercats</div>')}`
+```
   while true; do python3 ReadRawData2PrometheusFormat.py > raw_file2.txt; sleep 0.5; done
 
 In Terminal 2) 
