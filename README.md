@@ -1,4 +1,4 @@
-# Notes
+# PyScripts and Prometheus
 
 After installing Prometheus and Grafana run the Python scripts. In three terminals run the following 
 
@@ -22,7 +22,9 @@ The first script (`ReadRawData2PrometheusFormat.py`) reads the raw data (`raw_lo
 
 # Grafana
 Start the Grafana service. Example:
-brew services start grafana (in Mac, but in Linux will be systemctl)
+
+`brew services start grafana` (in Mac, but in Linux will be `systemctl`)
+
 Grafana will show up in `localhost:3000` by default.
 
 
