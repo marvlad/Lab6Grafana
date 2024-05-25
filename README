@@ -1,11 +1,11 @@
 # After installing prometheus and grafana
-# run the python scripts that read the raw data and the second that exposes 
-
+# Run the Python scripts. The first script (ReadRawData2PrometheusFormat.py) reads the raw data (raw_log.txt ), and the second script (Expose2Localhost.py) exposes the values. 
+# 
 prometheus --config.file=./localdb.yml
 
 prometheus by defaul shows up in localhost:9090
 
 ------grafana----------
-For Grafana, you need to start the service. Example:
-brew services stopt grafana
-localhost:3000 by default
+You need to start the Grafana service. Example:
+brew services start grafana (in mac, but linux will be systemctl)
+Grafana will show up in localhost:3000 by default
