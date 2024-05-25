@@ -1,16 +1,18 @@
+# Notes
+
 After installing Prometheus and Grafana run the Python scripts. In three terminals run the following 
 
-In Terminal #1
+Terminal 1:
 ```javascript
 while true; do python3 ReadRawData2PrometheusFormat.py > raw_file2.txt; sleep 0.5; done
 ```
 
-In Terminal #2
+Terminal 2:
 ```javascript
 python3 Expose2Localhost.py
 ```
 
-In Terminal #3
+Terminal 3:
 ```javascript
 prometheus --config.file=./localdb.yml
 ```
