@@ -3,6 +3,9 @@
 # The first script can be run 
 
 In Terminal 1)
+##
+<tab><tab>code/text here
+
 ```javascript
 while true; do python3 ReadRawData2PrometheusFormat.py > raw_file2.txt; sleep 0.5; done
 ```
