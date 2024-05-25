@@ -3,12 +3,12 @@
 
 prometheus --config.file=./localdb.yml
 
-prometheus by defaul shows up in localhost:9090
+prometheus by default shows up in localhost:9090
 
 ------grafana----------
 You need to start the Grafana service. Example:
-brew services start grafana (in mac, but linux will be systemctl)
-Grafana will show up in localhost:3000 by default
+brew services start grafana (in Mac, but in Linux will be systemctl)
+Grafana will show up in localhost:3000 by default.
 
 
 # The Lab6-1713058778362.json is a template dashboard generated with Grafana for lab6 use.
