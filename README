@@ -2,13 +2,9 @@
 # Run the Python scripts. The first script (ReadRawData2PrometheusFormat.py) reads the raw data (raw_log.txt ), and the second script (Expose2Localhost.py) exposes the values. 
 # The first script can be run 
 
-In Terminal 1)
-##
-<tab><tab>code/text here
+# In Terminal 1)
+  while true; do python3 ReadRawData2PrometheusFormat.py > raw_file2.txt; sleep 0.5; done
 
-```javascript
-while true; do python3 ReadRawData2PrometheusFormat.py > raw_file2.txt; sleep 0.5; done
-```
 In Terminal 2) 
 `python3 Expose2Localhost.py`
 
